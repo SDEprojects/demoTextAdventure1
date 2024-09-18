@@ -1,0 +1,38 @@
+{
+  "locations": [
+    {
+      "name": "Stream",
+      "description": "A small stream flows nearby.",
+      "detailedDescription": "The stream is crystal clear. You can see fish swimming.",
+      "exits": {
+        "east": "Campsite"
+      }
+    },
+    {
+      "name": "Campsite",
+      "description": "You find an abandoned campfire.",
+      "detailedDescription": "The campfire has been long abandoned, the ashes cold.",
+      "exits": {
+        "west": "Stream",
+        "south": "Cave",
+        "east": "Forest"
+      }
+    },
+    {
+      "name": "Forest",
+      "description": "You are surrounded by towering trees.",
+      "detailedDescription": "The trees are so tall they block out most of the sunlight.",
+      "exits": {
+        "west": "Campsite"
+      }
+    },
+    {
+      "name": "Cave",
+      "description": "A dark cave entrance beckons.",
+      "detailedDescription": "You see faint flickering lights deep inside the cave.",
+      "exits": {
+        "north": "Campsite"
+      }
+    }
+  ]
+}

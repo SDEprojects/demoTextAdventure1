@@ -1,0 +1,20 @@
+{
+  "0,0": {
+    "x": 0,
+    "y": 0,
+    "description": "You are at the edge of a dense forest.",
+    "detailedDescription": "You notice thick undergrowth and hear rustling in the bushes."
+  },
+  "1,1": {
+    "x": 1,
+    "y": 1,
+    "description": "A small stream flows nearby.",
+    "detailedDescription": "The stream is crystal clear. You can see fish swimming."
+  },
+  "2,2": {
+    "x": 2,
+    "y": 2,
+    "description": "You find an abandoned campfire.",
+    "detailedDescription": "The campfire has been long abandoned, the ashes cold."
+  }
+}
